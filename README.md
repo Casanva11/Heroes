@@ -49,34 +49,31 @@ Copiar código
 yarn dev
 Luego, abre http://localhost:3000 en tu navegador para ver la aplicación en funcionamiento.
 
-Scripts Disponibles
-yarn dev: Inicia la aplicación en modo de desarrollo.
-yarn build: Compila la aplicación para producción.
-yarn test: Ejecuta las pruebas utilizando Jest.
-yarn lint: Analiza el código en busca de problemas de estilo y errores.
-Estructura del Proyecto
-plaintext
-Copiar código
-Heroes/
-├── assets/
-│   └── heroes/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
-├── test/
-├── .gitignore
-├── README.md
-├── babel.config.cjs
-├── eslint.config.js
-├── index.html
-├── jest.config.cjs
-├── jest.setup.js
-├── package.json
-├── vite.config.js
-└── yarn.lock
+##  Scripts Disponibles
+- **`yarn dev`**: Inicia la aplicación en modo de desarrollo.
+- **`yarn build`**: Compila la aplicación para producción.
+- **`yarn test`**: Ejecuta las pruebas con Jest.
+- **`yarn lint`**: Analiza el código en busca de problemas de estilo y errores.
+
+##  Estructura del Proyecto
+- **`assets/`**: Recursos estáticos como imágenes de héroes.
+- **`public/`**: Archivos públicos accesibles directamente.
+- **`src/`**: Código fuente de la aplicación.
+  - **`components/`**: Componentes reutilizables de la interfaz.
+  - **`pages/`**: Páginas principales de la aplicación.
+  - **`App.jsx`**: Componente principal de la aplicación.
+  - **`main.jsx`**: Punto de entrada de la aplicación.
+- **`test/`**: Pruebas unitarias y de integración.
+- **`.gitignore`**: Archivos y directorios ignorados por Git.
+- **`README.md`**: Documentación del proyecto.
+- **`babel.config.cjs`**: Configuración de Babel.
+- **`eslint.config.js`**: Configuración de ESLint.
+- **`index.html`**: Archivo HTML principal.
+- **`jest.config.cjs`**: Configuración de Jest.
+- **`jest.setup.js`**: Configuración adicional para Jest.
+- **`vite.config.js`**: Configuración de Vite.
+- **`yarn.lock`**: Archivo de bloqueo de dependencias para Yarn.
+
 assets/: Recursos estáticos como imágenes de héroes.
 public/: Archivos públicos accesibles directamente.
 src/: Código fuente de la aplicación.
